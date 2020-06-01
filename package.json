@@ -1,0 +1,25 @@
+{
+  "name": "workoutlist-react",
+  "version": "0.1.0",
+  "private": true,
+  "home-page": "/testPages/"
+  "dependencies": {
+    "d3": "^5.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-loading": "^2.0.3",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-scroll": "^1.7.14",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy-test": "aws s3 sync build/ s3://workout-list.test"
+  }
+}
