@@ -2,7 +2,7 @@
   "name": "workoutlist-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/testPages/",
+  "homepage": "https://dgaudet.github.io/testPages/",
   "dependencies": {
     "d3": "^5.12.0",
     "react": "^16.9.0",
